@@ -1,5 +1,4 @@
-<!DOCTYPE html>
- <html>
+<html>
     <head>
         <h1> GOOD DAY, JASSY DEAY HIHI.</h1>
         <meta charset="utf-B">
@@ -40,4 +39,3 @@
             <p style="font-size: 20px;">
                 MALOUY MAN GANI SI PAPA JESUS. IKAW PA KAHA HIHI
     
- </html>
