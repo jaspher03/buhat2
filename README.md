@@ -36,9 +36,8 @@
     </head>
     <body>
         <p class="text"> HI, PWEDE MANG HIRAM OG BALLPEN??</p>
-        <font color="red"face="Garamond"style="display: flex; justify-content: center; align-items: center; height: 0vh;">
+        
             <p style="font-size: 20px;">
                 MALOUY MAN GANI SI PAPA JESUS. IKAW PA KAHA HIHI
-    </font>
-    </body>
+    
  </html>
