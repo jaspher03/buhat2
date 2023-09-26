@@ -1,41 +1,56 @@
-<html>
-    <head>
-        <h1> GOOD DAY, JASSY DEAY HIHI.</h1>
-        <meta charset="utf-B">
-        <meta name="viewport" content="width=device, initial-scale=1">
-        <title>GUSTO KO NA MAG PA BABY!!!!</title>
-        <style type="text/css">
-            body{
-                background: lavenderblush;
-                height: 50vh;
-                display: grid;
-                place-items: center;
-            }
-            .text{
-                font-size: 60px;
-                font-weight: bolder;
-                font-family: 'croissant one', cursive;
-                text-shadow: 2px 2px 4px #000;
-                animation: color 5s infinite;
-            }
-            @keyframes color {
-                0%{color: orange}
-                10%{color: blue}
-                20%{color: black}
-                30%{color: red}
-                40%{color: pink}
-                50%{color: yellow}
-                60%{color: gray}
-                70%{color: violet}
-                80%{color: yellowgreen}
-                90%{color: bisque}
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10pm moments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
-        </style>
-    </head>
-    <body>
-        <p class="text"> HI, PWEDE MANG HIRAM OG BALLPEN??</p>
-        
-            <p style="font-size: 20px;">
-                MALOUY MAN GANI SI PAPA JESUS. IKAW PA KAHA HIHI
-    
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>gusto ko na mag pa baby!!</h1>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button id="submitButton">Submit</button>
+        <div id="output">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("submitButton").addEventListener("click", function() {
+            const name = document.getElementById("name").value;
+            const output = document.getElementById("output");
+            output.innerHTML = `<p><strong></strong> hi ${name}</p><p><strong>pwede bang mahiram ballpen mo?</strong></p>`;
+        });
+    </script>
+</body>
+</html>
