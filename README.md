@@ -36,7 +36,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>gusto ko na mag pa baby!!</h1>
+        <h1>dugay nana ko gusto iingon sa imoha ba</h1>
         <label for="name">Your Name:</label>
         <input type="text" id="name" placeholder="Enter your name">
         <button id="submitButton">Submit</button>
